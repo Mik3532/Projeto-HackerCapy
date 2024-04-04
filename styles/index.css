@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Cores do projeto*/
+:root {
+    --preto: black ;
+    --verde: rgb(21, 92, 16); 
+
+}
+
+/*inicio Cabeçalho */
+
+
+#cabecalho {
+    height: 100px;
+    background-color: var(--preto);
+   display: flex;
+   justify-content: center;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/LogoCaveira.jpg);
+    background-size: cover;
+    
+}
+
+
+
+/*Fim cabeçalho*/
+
+
+
+/*corpo do site*/
+
+/*css imagens e botao*/
+#fundoMain {   
+   
+    padding: 20px;
+    background-image: url(../img/fundoBinario.jpg);
+    background-color: gray;
+    background-size: cover;
+    
+    
+}
+
+.catalogos {  
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url(../img/fundoBinario.jpg);
+    background-size: cover;
+    padding: 60px 80px 60px 80px;  
+}
+
+.catalogo1 {
+    border:solid white 5px;
+}
+
+/*Botao*/
+#botao {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    border-bottom: solid rgb(255, 252, 252);
+
+}
+
+#botaoCatalogo {
+    background-color: var(--verde);
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block; 
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+
+/*imagens config*/
+/*img rastreamento*/
+.catalogo {
+    height:280px;
+    width:280px;
+    background-size:100% auto;
+    background-image : url("../img/1img.jpg")
+}
+.texto{
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.7);
+}
+.catalogo:hover .texto{
+  opacity:1;
+ }
+ /*img morte virtual*/
+ .catalogoM {
+    height:280px;
+    width:280px;
+    background-size:100% auto;
+    background-image : url("../img/2img.jpg")
+}
+
+.catalogoM:hover .texto{
+    opacity:1;
+   }
+
+   /*img descriptografia*/
+
+.catalogoC {
+    height:280px;
+    width:280px;
+    background-size:100% auto;
+    background-image : url("../img/3img.jpg")
+}
+
+.catalogoC:hover .texto{
+    opacity:1;
+   }
+
+   /*fim config img*/
+
+   /* inicio banner*/
+
+ #banner {
+     
+    height: 314px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+ }  
+
+ #imagemBanner {
+     width: 350px;
+     height: 300px;
+     background-image: url(../img/BannerCapy.jpg);
+     background-size: cover;
+     
+ }
+
+ /*Fimbanner*/
+
+ footer {
+     background-color: var(--verde);
+     color: black;
+     text-align: center;
+ }
