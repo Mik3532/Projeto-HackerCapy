@@ -20,6 +20,7 @@ main {
     height: 100%;
 }
 
+
 #fundoCadastro {
     background-color: rgba(255, 255, 255, 0.521);
     border-radius: 10px;
@@ -34,6 +35,7 @@ main {
 }
 
 
+/*personalizando os inputs/botao*/
 input[type="text"],
 input[type="email"],
 input[type="password"] {
